@@ -1,0 +1,715 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2024-09-20T10:30:38.666",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "2",
+    "object_repr": "xll",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2024-09-20T10:31:43.464",
+    "user": 1,
+    "content_type": 3,
+    "object_id": "1",
+    "object_repr": "大壮和小妞",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2024-09-20T11:32:00.394",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Movie object (1)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2024-09-20T11:33:32.474",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Movie object (2)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2024-09-20T11:33:46.337",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Movie object (1)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u7535\\u5f71\\u8d44\\u6e90\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2024-09-20T11:36:37.297",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "Movie object (3)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2024-09-23T16:32:46.979",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "Movie object (4)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2024-09-23T16:35:22.452",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "5",
+    "object_repr": "Movie object (5)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2024-09-23T16:37:55.024",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "6",
+    "object_repr": "Movie object (6)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2024-09-25T17:50:51.987",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "Book object (1)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2024-09-25T17:55:01.548",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "2",
+    "object_repr": "Book object (2)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2024-09-25T17:56:22.412",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "3",
+    "object_repr": "Book object (3)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2024-09-27T11:32:40.098",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "4",
+    "object_repr": "读书的人",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 4,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 4,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 4,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 4,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 5,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 5,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 5,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 5,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 6,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 6,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 6,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 6,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add 电影",
+    "content_type": 7,
+    "codename": "add_movie"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change 电影",
+    "content_type": 7,
+    "codename": "change_movie"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete 电影",
+    "content_type": 7,
+    "codename": "delete_movie"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view 电影",
+    "content_type": 7,
+    "codename": "view_movie"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add 读书",
+    "content_type": 8,
+    "codename": "add_book"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change 读书",
+    "content_type": 8,
+    "codename": "change_book"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete 读书",
+    "content_type": 8,
+    "codename": "delete_book"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view 读书",
+    "content_type": 8,
+    "codename": "view_book"
+  }
+},
+{
+  "model": "auth.group",
+  "pk": 1,
+  "fields": {
+    "name": "大壮和小妞",
+    "permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$870000$AFNBhAXRhsqfWp83s2hN6S$D25KFfsLC9m9kVRTCXky6MXYjYHe1PDRfgFRFX6t38I=",
+    "last_login": "2024-09-29T10:24:44.807",
+    "is_superuser": true,
+    "username": "ltt",
+    "first_name": "",
+    "last_name": "",
+    "email": "ltt@ltt.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2024-09-14T17:59:28.039",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$870000$LK624q1kShtrAiwYBt9vPJ$8ikk/Ks9f9xQCZcFi41wVy874ecY0Fw9MB2ONMubVL0=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "xll",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2024-09-20T10:30:38.329",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "movie",
+    "model": "movie"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "book",
+    "model": "book"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "5bddanienht8pmtmjb291dj22owrt0eo",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGll2vPmYkp4zWOv94ABKpDipEHeHSCmgfTPzXibhtpa0VVnSyOZsvDn9bhnpIdMO-I7TbbY0T-syZrsr9qDVXmeW5-Vw_w4K1vKtAykgQBzQN8GrByaNLlNU6VhC7kF8GBy7TptWeohCrQp5UADNyOb9AfNTOMQ:1stOGT:gXH-FJvudTojsVnzRS0s9yIF0HyloIw7UB39KayoW-I",
+    "expire_date": "2024-10-09T17:24:53.479"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "aa6huvqcnt29fsravrljchs29pp0cnbf",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGll2vPmYkp4zWOv94ABKpDipEHeHSCmgfTPzXibhtpa0VVnSyOZsvDn9bhnpIdMO-I7TbbY0T-syZrsr9qDVXmeW5-Vw_w4K1vKtAykgQBzQN8GrByaNLlNU6VhC7kF8GBy7TptWeohCrQp5UADNyOb9AfNTOMQ:1srTNc:GxEx0z0ovcU25javzxVrlosT3KGqx634nD0-Vtcv8Xw",
+    "expire_date": "2024-10-04T10:28:20.543"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "d21nqmw7ufa8hmfq812lflq54m0pthc2",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGll2vPmYkp4zWOv94ABKpDipEHeHSCmgfTPzXibhtpa0VVnSyOZsvDn9bhnpIdMO-I7TbbY0T-syZrsr9qDVXmeW5-Vw_w4K1vKtAykgQBzQN8GrByaNLlNU6VhC7kF8GBy7TptWeohCrQp5UADNyOb9AfNTOMQ:1sseTS:X5QtZvDziLdrjTf2sxQVGxlAPDAt5LguWHDgTKy-PI8",
+    "expire_date": "2024-10-07T16:31:14.775"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "hhpu7lpevt13dv9ynzux4cujmdnn7t8l",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGll2vPmYkp4zWOv94ABKpDipEHeHSCmgfTPzXibhtpa0VVnSyOZsvDn9bhnpIdMO-I7TbbY0T-syZrsr9qDVXmeW5-Vw_w4K1vKtAykgQBzQN8GrByaNLlNU6VhC7kF8GBy7TptWeohCrQp5UADNyOb9AfNTOMQ:1sujc4:aarwjmXRFVwcX9287KMu2Jb-SjDUZpn-2wUW4Rfe_yg",
+    "expire_date": "2024-10-13T10:24:44.814"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "tmcax2034ro8o73mf3p5xpvk9oayvzbi",
+  "fields": {
+    "session_data": ".eJxVjEsOwjAMBe-SNYowqd2EJfueIXJilxZQIvWzQtydVuoCtm9m3ttEXpchrrNOcRRzNWBOv1vi_NSyA3lwuVeba1mmMdldsQedbVdFX7fD_TsYeB62GpN6h46p8dSqBPDnIJceSan3ATAQtjkJAoHrXfbSus1k1gaA0aH5fAHGcDcC:1spPZ6:9SgZR7fJNAXMW-8kmvYue2IBhsDdyCpXAhAV_LpMjZI",
+    "expire_date": "2024-09-28T17:59:40.562"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "uphpp104milt2ugwl57cnfb7w1js1ovu",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGll2vPmYkp4zWOv94ABKpDipEHeHSCmgfTPzXibhtpa0VVnSyOZsvDn9bhnpIdMO-I7TbbY0T-syZrsr9qDVXmeW5-Vw_w4K1vKtAykgQBzQN8GrByaNLlNU6VhC7kF8GBy7TptWeohCrQp5UADNyOb9AfNTOMQ:1su1Xr:i3MEpdrAd2c7QSJzHDv4yh3C8pbDlCIhUbaL9uJKrzU",
+    "expire_date": "2024-10-11T11:21:27.346"
+  }
+},
+{
+  "model": "movie.movie",
+  "pk": 1,
+  "fields": {
+    "title": "看不见的朋友",
+    "description": "注意！这个青年叫阿纬（曾敬骅 饰），人生陷入低谷倒了大霉；求死不能偏遇四“人”尾随，难缠又难搞让阿纬崩溃：一个碎碎念停不下嘴，一个爱抽烟停不下嘴，一个哭唧唧停不下嘴，一个大口炫停不下嘴。 　　四“人”轮番上身阿纬走路都迈不开腿，频频社死让筱茵（邵雨薇 饰）找不着北。看不见的他们究竟是谁？阿纬的奇遇要如何收尾？",
+    "image": "movie/images/p2912846466.webp",
+    "url": "https://movie.douban.com/subject/35954480"
+  }
+},
+{
+  "model": "movie.movie",
+  "pk": 2,
+  "fields": {
+    "title": "野孩子",
+    "description": "影片取材自“流浪兄弟”真实事件，聚焦“社会困境儿童”群体。讲述了⼀段“小偷”哥哥和“孤⼉”弟弟的流浪路，⼀场温暖的守护与救赎。 　　独自流浪生活的男孩马亮（王俊凯 饰）机缘巧合下遇见了被家人遗忘、无人关照的孩子轩轩（关子勰 饰），相似的命运让两个孤独的少年渐行渐近，风雨中他们一起建立了一个小小的家，拥抱取暖彼此守护。然而一场意外打破了一切，一群不速之客闯入了他们的生活，马亮和轩轩的命运又将何去何从……",
+    "image": "movie/images/2.webp",
+    "url": "https://movie.douban.com/subject/36399203/"
+  }
+},
+{
+  "model": "movie.movie",
+  "pk": 3,
+  "fields": {
+    "title": "出走的决心",
+    "description": "影片根据50岁阿姨自驾游真人故事改编。 　　天真浪漫的李红（咏梅 饰）一生有过许多梦想，18岁时憧憬大学，25岁时憧憬爱情，45岁时憧憬远游……但为了那些“对别人来说更重要”的事，她只能一等再等，也一再错过。50岁，她决心不再等待，活出不一样的人生！",
+    "image": "movie/images/3.webp",
+    "url": "https://movie.douban.com/subject/36587974/"
+  }
+},
+{
+  "model": "movie.movie",
+  "pk": 4,
+  "fields": {
+    "title": "祝你幸福",
+    "description": "电影讲述了一对夫妻罗宇（肖央 饰）与白慧（宋佳 饰）在离婚冷静期中，以律师和医生的身份卷入一桩失独老人（倪大红 饰）的胚胎归属权纠纷案件。随着离婚冷静期结束时间越来越近，两人在此期间也慢慢地对自己、对婚姻、对家庭有了新的认知。",
+    "image": "movie/images/4.webp",
+    "url": "https://movie.douban.com/subject/36165364/"
+  }
+},
+{
+  "model": "movie.movie",
+  "pk": 5,
+  "fields": {
+    "title": "绿皮书 Green Book",
+    "description": "托尼（维果·莫腾森 Viggo Mortensen 饰）是一个吊儿郎当游手好闲的混混，在一家夜总会做侍者。这间夜总会因故要停业几个月，可托尼所要支付的房租和生活费不会因此取消，所以他的当务之急是去寻找另一份工作来填补这几个月的空缺。在这个节骨眼上，一位名叫唐雪莉（马赫沙拉·阿里 Mahershala Ali 饰）的黑人钢琴家提出雇佣托尼。\r\n　　唐雪莉即将开始为期八个星期的南下巡回演出，可是，那个时候南方对黑人的歧视非常的严重，于是托尼便成为了唐雪莉的司机兼保镖。一路上，两人迥异的性格使得他们之间",
+    "image": "movie/images/5.webp",
+    "url": "https://movie.douban.com/subject/27060077/"
+  }
+},
+{
+  "model": "movie.movie",
+  "pk": 6,
+  "fields": {
+    "title": "但愿人长久",
+    "description": "来自湖南的新移民子圆及妹妹子缺两姊妹在香港成长，除了面对身份认同、贫穷，还有一个更大的命题：一个长年吸毒的父亲（吴慷仁 饰）。 从小父亲若即若离，喜怒无常，又时常因坐牢突然消失，使两姊妹长期处于不安。小时候她们还会讨好父亲，中学她们掌握了话语权开始反抗、挣扎、逃离。长大后本以为可以彻底挣脱父亲，却发现自己喜欢的所有人事，原来都带着父亲的影子，都与童年的某个回忆有关……\r\n　　影片改编导演祝紫嫣的短篇小说。白描二十载的父女离散，记忆一对姊妹的成长悲欢。",
+    "image": "movie/images/6.webp",
+    "url": "https://movie.douban.com/subject/35211513/"
+  }
+},
+{
+  "model": "book.book",
+  "pk": 1,
+  "fields": {
+    "title": "世界经济与政治",
+    "description": "《世界经济与政治》（月刊）创刊于1979年，是中国社会科学院主管、中国社会科学院世界经济与政治研究所主办的国际关系学学术月刊。旨在发现和发表最具学术创新性的中文国际关系理论和实证研究论文，促进国际关系知识增长和中国国际关系学科高质量发展，推动中国国际关系学科体系、学术体系和话语体系建设。主要发表国际关系学理论和经验研究论文。",
+    "image": "book/images/1.jpg",
+    "url": "https://www.eshukan.com/displayj.aspx?jid=15336"
+  }
+},
+{
+  "model": "book.book",
+  "pk": 2,
+  "fields": {
+    "title": "恐龙疗法1：做自己就好",
+    "description": "🦖编辑推荐\r\n\r\n一群小恐龙，试图解决一些“大问题”！\r\n\r\n不想长大……当个幼稚鬼也挺好。\r\n\r\n遇到困难……逃避可耻但有用。\r\n\r\n想太多……不如先睡个小觉。\r\n\r\n没热情……发疯一下提提神。\r\n\r\n易疲倦……偶尔躺平有何不可？\r\n\r\n最重要的是，\r\n\r\n做自己喜欢的事，\r\n\r\n和自己喜欢的一切在一起！\r\n\r\n🦖\r\n\r\n“恐龙疗法”系列是席卷全球的超级畅销书\r\n\r\n超人气治愈恐龙漫画，百万粉丝催更！\r\n\r\n读者擦泪热评——\r\n\r\n“感觉像被狠狠拥抱”\r\n\r\n“我想这只恐龙可能就是我”\r\n\r\n“我收到过的樶好的礼物”\r\n\r\n便携称手的精装小开本，180度丝滑平摊\r\n\r\n全彩印制，细节呈现\r\n\r\n🦖\r\n\r\n“这是一本很可爱的书，像个小被窝。希望你也喜欢。”\r\n\r\n——心理学家，“简单心理”创始人兼CEO 简里里\r\n\r\n🦖内容介绍\r\n\r\n“恐龙疗法”是一套治愈系绘本读物，通过小恐龙的对话关注与心理健康问题的斗争，在英国上市后立刻登顶畅销榜榜首，随后风靡全球！\r\n\r\n《恐龙疗法1:做自己就好》从成长、抑郁、快乐、人际关系、压力、过度思考与焦虑、成功与失败等多个维度，剖析现代生活中可能遇到的心理困境。生活有时令人迷茫、挫败，但有小恐龙陪你一同面对，偶尔逃避、偶尔发疯，睡个小觉做回自己！\r\n\r\n每年都有更多的人面临心理健康问题。作者希望以坦率和开放的方式谈论孤独、抑郁、焦虑等现代人的心理问题，帮助我们建立与他人的正向关系，学会松弛地享受当下、享受生活，寻找生活的积极意义。",
+    "image": "book/images/2.jpg",
+    "url": "https://book.douban.com/subject/36989976"
+  }
+},
+{
+  "model": "book.book",
+  "pk": 3,
+  "fields": {
+    "title": "猫鱼",
+    "description": "★备受期待的华语重磅新书，电影人陈冲非虚构长篇作品\r\n\r\n——从上海童年的老房子到旧金山的家；从少女时代“小花”剧组到《末代皇帝》《太阳照常升起》的银幕背后；从祖辈的往事到父母、哥哥三代知识分子的精神历程……《猫鱼》是当代不可多得的回忆录，是知识人的心灵史，电影艺术家的传记，也是一部当代女性的成长之书、勇气之书。\r\n\r\n★金宇澄、罗新、姜文、许知远诚意推荐\r\n\r\n——“《猫鱼》是高水准的自传体散文集，既是个体生命史，又是时代大记录，一字一句，真气充盈。”（罗新）\r\n\r\n“陈冲建立的纸上王国，细腻、自由、直率，她的人与事，尤其几代知识分子的历史，填补了文学上海的叙事空白。”（金宇澄）\r\n\r\n“《猫鱼》是陈冲珍贵的个人记忆，写得鲜活、深邃。她毫不畏惧地邀请你踏入其中，经历她的人生……这种勇气，不是谁都有。”（姜文）\r\n\r\n★人的生命就像猫鱼，始终卑微、弱小，却坚韧地活着。在日常之中，期待奇迹发生\r\n\r\n——“‘猫鱼’是当年的上海话，菜场出售一种实该漏网的小鱼，用以喂猫，沪语发音‘毛鱼’。随着以后猫粮的出现，它在人们的记忆中消失了……”上海之冬，一只“猫鱼”死而复生，成了我和哥哥童年唯一的奇迹。“猫鱼”是生命里转瞬即逝的灵感，是人的本性里被遗忘或隐藏的真相，是日常生活中体验的每一个奇迹。\r\n\r\n★《收获》文学榜长篇非虚构获奖作品\r\n\r\n——“为读者展现了一个文学意义上独特又深沉的陈冲，她以克制内敛的笔法向着家族历史征进，踏进如烟的家族往事又不沉溺其中，通过众多日常的生活细节完成了对家人形象的刻写和赋形，从而与历史生活达成了深沉又动人的联系，作品呈现出的沉郁悲悯让人为之动容。”\r\n\r\n《猫鱼》是电影人陈冲的长篇非虚构作品。祖辈与母亲的故事、平江路老房子的岁月，“小花”摄制组大篷车的日子，独自踏上异国留学之旅，每一部电影不为人知的幕后，生命中的爱与痛楚、挣扎，经由作者的回望，跃然纸上。写家族故事，是独特的上海叙事、中国知识分子的心灵史；从《小花》到《末代皇帝》《意》《太阳照常升起》等等的银幕前后，是电影艺术家的传记；从上海童年到异国打拼，一段段人生旅程，是女性兼具激情与柔情的私语",
+    "image": "book/images/3.jpg",
+    "url": "https://book.douban.com/subject/36659710"
+  }
+},
+{
+  "model": "book.book",
+  "pk": 4,
+  "fields": {
+    "title": "读书的人",
+    "description": "《读书的人》是90后青年书评人魏小河的最新作品集，也是一次随书而行的旅途。\r\n\r\n本书分为“星辰时刻”“多元世界的可能”“汉语的一种风度”“生活在他处”四辑，共收录34篇文章。\r\n\r\n从裂着口的严冬大地出发，走到萧红的陨落，张爱玲在前半生的逼仄中迎来时代的序曲，整个星 辰时刻无一不 是普通人的一生；翻开一本科幻小说，或是道德小说，触摸自由意志和爱的搏杀、离开和留下的拉扯，感受多元世界的可能和汉语的一种风度；读书的人，最需要的是投入世界的热情和改变世界的勇气，到了旅程的末梢，我们进入游荡者的世界——既有关于旅行的无限清单，也有深入非洲、中亚腹地的神奇经历，还有生活在东京八平米、英国民间的经验观察。\r\n\r\n-\r\n\r\n读书的人，也可以是听歌的人，看电影的人，随便走走的人，读书只是他所做的一件事，而并非是一种身份。\r\n\r\n对小河来说，每读一本书，就是去一个地方走走看看。有时候去的是人人称赞的名胜古迹，有时候则是去往一片无人问津的荒野，有的是诚心拜谒，有的是随机乱走，但不论何种形式，哪些地方，他都满心欢喜。可以说，这本书里收录的文章，正是这些“走走看看”所留下的痕迹。",
+    "image": "book/images/s34919202.jpg",
+    "url": "https://book.douban.com/subject/36981236"
+  }
+}
+]
